@@ -7,6 +7,7 @@
 body {
   background: -webkit-radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
   background: radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
+
 }
 header{
   grid-column: 1/5;
@@ -30,8 +31,21 @@ h1 {
   font-size: 24px;
   grid-column: 2;
   grid-row: 2;
-  text-align: center;
+
 }
+header{
+  grid-column: 1/4;
+  grid-row: 1;
+}
+h1 {
+  font-family: nosifer;
+
+  text-align: center;
+  font-size: 50px;
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
 #setup {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -86,6 +100,28 @@ h1 {
   height: 500px;
   grid-column: 2;
   grid-row: 3/4;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 3fr);
+}
+
+#score {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  grid-column: 2;
+  grid-row: 1;
+
+}
+
+
+#donut {
+  width: 300px;
+  height: 300px;
+  grid-column: 2;
+  grid-row: 2;
+
 }
 
 footer {
