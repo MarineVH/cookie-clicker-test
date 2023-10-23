@@ -1,4 +1,4 @@
-# cookie-clicker
+# ~~cookie-clicker~~ Donut-clicker
 
 ## _Contexte :_
 
