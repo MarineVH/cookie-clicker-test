@@ -23,7 +23,7 @@
   h1 {
     font-family: nosifer;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #98FF98;
   }
   .container {
@@ -34,7 +34,7 @@
 
   #result {
     font-family: lilita;
-    font-size: 24px;
+    font-size: 1.5rem;
     grid-column: 1/5;
     grid-row: 2;
     text-align: center;
@@ -64,7 +64,7 @@
 
   }
   #score {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     color: #98FF98;
   }
@@ -75,14 +75,36 @@
     grid-column: 1;
     grid-row: 1;
   }
+  #btn-multi{
+    grid-column: 1;
+    grid-row: 1;
+  }
   #multi {
     grid-column: 2;
     grid-row: 1;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #98FF98;
   }
+  #auto {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #98FF98;
+  }
+  #btn-bonus {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #btn-auto {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
   #btn-bonus {
     grid-column: 1;
     grid-row: 2;
@@ -108,7 +130,7 @@
     grid-column: 1/5;
     grid-row: 5;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: montserra;
   }
     
@@ -186,7 +208,7 @@
   }
   #auto {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 2;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -195,12 +217,12 @@
   }
   #btn-bonus {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   #btn-auto {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
   }
 
   #img-resp {
