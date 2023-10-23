@@ -18,11 +18,12 @@
   header{
     grid-column: 1/5;
     grid-row: 1;
+    text-align: center;
   }
   h1 {
     font-family: nosifer;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: #98FF98;
   }
   .container {
@@ -42,11 +43,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    grid-column: 2/3;
+    grid-column: 1/5;
     grid-row: 4;
     max-width: 250px;
     padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
   }
+
   #setup button{
     width: 120px;
     height: 50px;
@@ -56,6 +60,8 @@
     color: #B123AF;
     font-weight: bold;
     font-family: lilita;
+
+
   }
   #score {
     font-size: 28px;
@@ -87,13 +93,15 @@
     grid-row: 3;
   }
 
-
+  #img-resp {
+    max-width: 100%;
+    height: auto;
+  }
   #donut {
     width: 500px;
     height: 500px;
     grid-column: 1/5;
     grid-row: 3;
-    justify-content: center;
   }
 
   footer {
@@ -105,6 +113,7 @@
   }
     
 }
+
 /*version pc*/
 
 @media screen and (min-width: 769px){
@@ -185,12 +194,14 @@
     grid-row: 3;
   }
 
-
+  #img-resp {
+     grid-column: 2;
+    grid-row: 3/4;
+  }
   #donut {
     width: 500px;
     height: 500px;
-    grid-column: 2;
-    grid-row: 3/4;
+   
   }
 
   footer {
