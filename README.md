@@ -92,4 +92,9 @@ Votre clicker de cookie doit être joli, donnez-lui une belle apparence avec CSS
 
 ## _Thème :_
 
-Nous avons decidé de faire un **Donut Clicker** ![Donut](img/donut.png)
+Nous avons decidé de faire un **Donut Clicker** 
+
+![Donut](img/donut.png)
+
+
+## _Sources :_
