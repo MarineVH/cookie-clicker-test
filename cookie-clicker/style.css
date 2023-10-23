@@ -7,6 +7,31 @@
 body {
   background: -webkit-radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
   background: radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
+
+}
+header{
+  grid-column: 1/5;
+  grid-row: 1;
+}
+h1 {
+  font-family: nosifer;
+  text-align: center;
+  font-size: 50px;
+  color: #98FF98;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+  min-height: 100vh;
+}
+
+#result {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  grid-column: 2;
+  grid-row: 2;
+
 }
 header{
   grid-column: 1/4;
@@ -14,11 +39,68 @@ header{
 }
 h1 {
   font-family: nosifer;
+
   text-align: center;
   font-size: 50px;
   grid-column: 2/3;
   grid-row: 1;
 }
+
+#setup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-column: 4;
+  grid-row: 3;
+  max-width: 250px;
+  /*border: 1px solid #888888;*/
+  padding: 20px;
+}
+#setup button{
+  width: 120px;
+  height: 50px;
+  background-color: #98FF98;
+  border: 1px solid #888888;
+  border-radius: 20px;
+  color: #B123AF;
+  font-weight: bold;
+}
+#score {
+  font-size: 28px;
+  font-weight: bold;
+  color: #98FF98;
+}
+#setup button:hover{
+  transform: scale(1.2);
+}
+#btn-multi{
+  grid-column: 1;
+  grid-row: 1;
+}
+#multi {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #98FF98;
+}
+#btn-bonus {
+  grid-column: 1;
+  grid-row: 2;
+}
+#btn-auto {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+
+#donut {
+  width: 500px;
+  height: 500px;
+  grid-column: 2;
+  grid-row: 3/4;
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
@@ -39,4 +121,12 @@ h1 {
   height: 300px;
   grid-column: 2;
   grid-row: 2;
+
+}
+
+footer {
+  grid-column: 1/5;
+  grid-row: 4;
+  text-align: center;
+
 }
