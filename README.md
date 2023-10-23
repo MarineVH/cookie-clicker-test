@@ -1,15 +1,23 @@
-# ~~cookie-clicker~~ [Donut-clicker](https://marinevh.github.io/cookie-clicker/cookie-clicker/ "Donut-Clicker")
+# ~~🍪 cookie-clicker 🍪~~ [🍩 Donut-clicker 🍩](https://marinevh.github.io/cookie-clicker/cookie-clicker/ "Donut-Clicker")
 
 ## _Contexte :_
 
 Ce projet de **Coockie Clicker** est réalisé dans le cadre de la formation de **Web-Developper-Junior** chez [BeCode](https://becode.org/all-trainings/pedagogical-framework-junior-developer/ "BeCode")
+
 ![BeCode](https://res.cloudinary.com/practicaldev/image/fetch/s--lirxSGIl--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1675/3e6f1228-27eb-47af-a6ce-b4cd0854f8ac.png)
 
 ## _Equipe :_
 
-- ***Marine*** : Project-Manager
-- ***Audrius*** : Back-End dev
-- ***Cédric*** : Front-End Dev
+- ***[Marine](https://github.com/MarineVH "GitHub")*** : Project-Manager
+- ***[Audrius](https://github.com/AudriusGrebliunas "GitHub")*** : Back-End dev
+- ***[Cédric](https://github.com/cebe0210 "GitHub")*** : Front-End Dev
+
+## _Code :_
+
+- [HTML](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/index.html "GitHub")
+- [CSS](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/style.css "GitHub")
+- [JavaScript](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/main.js "GitHub")
+
 
 ## _Consignes :_
 
@@ -81,6 +89,7 @@ Faites en sorte que, si le joueur n'a pas les points nécessaires pour acheter u
 Votre clicker de cookie doit être joli, donnez-lui une belle apparence avec CSS ou du JavaScript supplémentaire.
 
 ## _Livraison :_
+
 1. Publiez votre code source sur le référentiel GitHub.
 2. Pimpez le fichier Lisez-moi :
     - Quoi, pourquoi, quand, comment, qui.
@@ -88,13 +97,11 @@ Votre clicker de cookie doit être joli, donnez-lui une belle apparence avec CSS
     - Il doit contenir un lien vers la version "live". La version « live » doit contenir un lien vers le code source sur GitHub.
 3. Publiez le lien vers la version "live" sur Discord.
 
-
-
 ## _Thème :_
 
 Nous avons decidé de faire un **Donut Clicker** 
 
-![Donut](img/donut.png)
+![Donut](img/donut-removebg-preview.png)
 
 
 ## _Sources :_
