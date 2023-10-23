@@ -2,11 +2,20 @@
   font-family: nosifer;
   src: url(font/Nosifer-Regular.ttf);
 }
+@font-face {
+  font-family: lilita;
+  src: url(font/LilitaOne-Regular.ttf);
+}
+@font-face {
+  font-family: montserra;
+  src: url(font/Montserrat-VariableFont_wght.ttf);
+}
 
 
 body {
   background: -webkit-radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
   background: radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
+
 }
 header{
   grid-column: 1/5;
@@ -26,10 +35,19 @@ h1 {
 }
 
 #result {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: lilita;
   font-size: 24px;
   grid-column: 2;
   grid-row: 2;
+
+}
+header{
+  grid-column: 1/4;
+  grid-row: 1;
+}
+h1 {
+  font-family: nosifer;
+
   text-align: center;
 }
 #setup {
@@ -50,6 +68,7 @@ h1 {
   border-radius: 20px;
   color: #B123AF;
   font-weight: bold;
+  font-family: lilita;
 }
 #score {
   font-size: 28px;
@@ -75,6 +94,10 @@ h1 {
   grid-column: 1;
   grid-row: 2;
 }
+/*#timer {
+  grid-column: 2;
+  grid-row: 2;
+}*/
 #btn-auto {
   grid-column: 1;
   grid-row: 3;
@@ -86,11 +109,35 @@ h1 {
   height: 500px;
   grid-column: 2;
   grid-row: 3/4;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 3fr);
+}
+
+#score {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  grid-column: 2;
+  grid-row: 1;
+
+}
+
+
+#donut {
+  width: 300px;
+  height: 300px;
+  grid-column: 2;
+  grid-row: 2;
+
 }
 
 footer {
   grid-column: 1/5;
   grid-row: 4;
   text-align: center;
+  font-size: 18px;
+  font-family: montserra;
 
 }
