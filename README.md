@@ -102,7 +102,7 @@ Votre clicker de cookie doit être joli, donnez-lui une belle apparence avec CSS
 Nous avons decidé de faire un **Donut Clicker** 
 
 
-Le donut à été généré avec [Dall-E](https://labs.openai.com/ "Dall-E")
+Le donut à été généré avec [Dall-E](https://labs.openai.com/ "Dall-E") Promp : un donut rose avec des paillettes en pixel-art
 ![Donut](img/Donut_DALL_E_.png)
 
 Le fond en dégrader à été généré avec [Colinkeany](http://www.colinkeany.com/blend/ "Colinkeany")
