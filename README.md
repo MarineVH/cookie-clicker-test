@@ -2,20 +2,21 @@
 
 ## _Contexte :_
 
-Ce projet de **Coockie Clicker** est réalisé dans le cadre de la formation de **Web-Developper-Junior** chez [BeCode](https://becode.org/all-trainings/pedagogical-framework-junior-developer/ "BeCode")
+Ce projet de **Coockie Clicker** est réalisé dans le cadre de la formation de **Web-Developper-Junior** chez [BeCode](https://becode.org/all-trainings/pedagogical-framework-junior-developer/ "BeCode"), selection **Swartz-8**.
 
 ![BeCode](https://res.cloudinary.com/practicaldev/image/fetch/s--lirxSGIl--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1675/3e6f1228-27eb-47af-a6ce-b4cd0854f8ac.png)
+
+## _Equipe :_
+
+- ***[Marine](https://github.com/MarineVH "GitHub")*** : Project-Manager 👩‍💻 / Patronne de la **Patisserie** 👩‍🍳
+- ***[Audrius](https://github.com/AudriusGrebliunas "GitHub")*** : Back-End dev 👨‍💻 / Le patissier qui a fait la pâte 👨‍🍳
+- ***[Cédric](https://github.com/cebe0210 "GitHub")*** : Front-End Dev 🧑‍💻 / Le patissier qui à mis le nappage 🧑‍🍳
 
 ## _Mais qu'est-ce qu'un **cookie-clicker**?_
 
 Un cookie clicker, c'est un de ces jeux en ligne super simples qui te rendent accro. L'idée, c'est de cliquer comme un fou sur un cookie à l'écran pour gagner des cookies virtuels. Au fil du temps, ça devient de plus en plus dingue avec des trucs compliqués qui te permettent de produire des cookies automatiquement et de te fixer des objectifs toujours plus fous.
 
 Ce genre de jeu, ça appartient à la catégorie des "idle games", c'est-à-dire des jeux où t'as juste à les laisser tourner en arrière-plan et ils continuent à te filer des trucs, même quand tu ne les regardes pas. C'est génial pour sa simplicité et c'est tellement addictif que tu risques de te retrouver à y passer un temps fou. Des fois, on a même entendu des joueurs dire que ça les avait un peu rendus accros.
-## _Equipe :_
-
-- ***[Marine](https://github.com/MarineVH "GitHub")*** : Project-Manager 👩‍💻 / Patronne de la **Patisserie** 👩‍🍳
-- ***[Audrius](https://github.com/AudriusGrebliunas "GitHub")*** : Back-End dev 👨‍💻 / Le patissier qui a fait la pâte 👨‍🍳
-- ***[Cédric](https://github.com/cebe0210 "GitHub")*** : Front-End Dev 🧑‍💻 / Le patissier qui met le nappage 🧑‍🍳
 
 ## _Code :_
 
@@ -120,16 +121,20 @@ Le donut à été généré avec [Dall-E](https://labs.openai.com/ "Dall-E") **P
 
 ![Donut](cookie-clicker/img/Donut_DALL_E_.png)
 
-Le fond en dégrader à été généré avec [Colinkeany](http://www.colinkeany.com/blend/ "Colinkeany")
+- Le fond en dégrader à été généré avec [Colinkeany](http://www.colinkeany.com/blend/ "Colinkeany")
+
+- Les polices de caractères ont été télécharger sur [Google-Fonts](https://fonts.google.com/ "Google-Fonts")
+
+- Le pointeur de souris à été trouvé sur [Icons8](https://icons8.com/ "icons8")
 
 
 ## _Lighthousse :_
 
-**Test lighthousse desktop**
+### Test lighthousse desktop : 
 
 ![desktop](cookie-clicker/img/lighthousse-desktop.png)
 
-**Test lighthousse mobile**
+### Test lighthousse mobile :
 
 ![desktop](cookie-clicker/img/lighthousse-mobile.png)
 
