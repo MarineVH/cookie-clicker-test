@@ -10,7 +10,7 @@ Ce projet de **Coockie Clicker** est réalisé dans le cadre de la formation de 
 
 - ***[Marine](https://github.com/MarineVH "GitHub")*** : Project-Manager 👩‍💻 / Patronne de la **Patisserie** 👩‍🍳
 - ***[Audrius](https://github.com/AudriusGrebliunas "GitHub")*** : Back-End dev 👨‍💻 / Le patissier qui a fait la pâte 👨‍🍳
-- ***[Cédric](https://github.com/cebe0210 "GitHub")*** : Front-End Dev 🧑‍💻 / Le patissier qui à mis le nappage 🧑‍🍳
+- ***[Cédric](https://github.com/cebe0210 "GitHub")*** : Front-End Dev 🧑‍💻 / Le patissier qui a mis le nappage 🧑‍🍳
 
 ## _Mais qu'est-ce qu'un **cookie-clicker**?_
 
@@ -121,12 +121,13 @@ Le donut à été généré avec [Dall-E](https://labs.openai.com/ "Dall-E") **P
 
 ![Donut](cookie-clicker/img/Donut_DALL_E_.png)
 
+- Musique : Music by <a href="https://pixabay.com/fr/users/piemert-24353758/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=171719">Robert de Waard</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=171719">Pixabay</a>
+
 - Le fond en dégrader à été généré avec [Colinkeany](http://www.colinkeany.com/blend/ "Colinkeany")
 
 - Les polices de caractères ont été télécharger sur [Google-Fonts](https://fonts.google.com/ "Google-Fonts")
 
 - Le pointeur de souris à été trouvé sur [Icons8](https://icons8.com/ "icons8")
-
 
 ## _Lighthousse :_
 
