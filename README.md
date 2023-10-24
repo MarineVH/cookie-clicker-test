@@ -101,6 +101,13 @@ Votre clicker de cookie doit être joli, donnez-lui une belle apparence avec CSS
 
 Nous avons decidé de faire un **Donut Clicker** 
 
+**Version Desktop :**
+
+![desktop](cookie-clicker/img/desktop.png)
+
+**Version Mobile :**
+
+![mobile](cookie-clicker/img/mobile.png)
 
 Le donut à été généré avec [Dall-E](https://labs.openai.com/ "Dall-E") **Promp** : un donut rose avec des paillettes en pixel-art
 ![Donut](cookie-clicker/img/Donut_DALL_E_.png)
