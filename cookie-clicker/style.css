@@ -56,7 +56,7 @@
     width: 120px;
     height: 50px;
     /*background-color: #98FF98;*/
-    background-color: #888888;
+    background-color: #bbbbbb;
     border: 1px solid #888888;
     border-radius: 20px;
     color: #B123AF;
@@ -182,7 +182,7 @@
   body {
     background: -webkit-radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
     background: radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
-    cursor: url('img/cursor.png'), auto;
+    cursor: url('img/cursor.webP'), auto;
   }
   header{
     grid-column: 1/5;
@@ -222,7 +222,7 @@
     width: 120px;
     height: 50px;
    /* background-color: #98FF98;*/
-   background-color: #888888;
+   background-color: #bbbbbb;
     border: 1px solid #888888;
     border-radius: 20px;
     color: #B123AF;
