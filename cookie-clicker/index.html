@@ -2,11 +2,17 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icom" href="img/donut-icon.png">
+    <link rel="icon" type="image/png" href="img/donut-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="game donut-clicker">
+    <!--Désactivation clic droit-->
+    <script type="text/javascript">
+      document.oncontextmenu = function() {
+          return false;
+      }
+  </script>
+  
     <title>Donut-Clicker</title>
   </head>
   <body>
@@ -34,12 +40,10 @@
 
     <footer>
       <hr>
-      <p>Visualisez notre code : <a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/index.html">HTML</a> <a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/style.css">CSS <a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/main.js">JavaScript</a> </p>
-    <footer>
+      <p>Visualisez notre code : <a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/index.html" title="GitHub">HTML, </a> <a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/style.css" title="GitHub"> CSS,  <a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/main.js" title="GitHub"> JavaScript</a> </p>
     </footer>
   
   </div>
-    <div id="app"></div>
     <script src="main.js"></script>
   </body>
 </html>
