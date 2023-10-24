@@ -152,7 +152,7 @@
   }
   footer img{
     width: 30px;
-    height: auto;
+    height: 30px;
     margin-left: 10px;
     
   }
@@ -182,7 +182,7 @@
   body {
     background: -webkit-radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
     background: radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
-    cursor: url('img/cursor.webP'), auto;
+    cursor: url('img/cursor.png'), auto;
   }
   header{
     grid-column: 1/5;
@@ -199,7 +199,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, auto);
     min-height: 100vh;
-    /*cursor: url('img/cursor.png'), auto;*/
   }
 
   #result {
@@ -322,7 +321,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   
   #donut {
     width: 500px;
-    height: 500px;
+    height: 456px;
     animation: rotation 10s linear infinite;
   }
   @keyframes rotation {
@@ -349,7 +348,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   }
   footer img{
     width: 50px;
-    height: auto;
+    height: 50px;
     margin-left: 10px;
   }
   footer img:hover{
