@@ -74,11 +74,23 @@ setInterval(() => {
   if ((+score.innerHTML) >= (+prixAuto.innerHTML)) {
     boutonAuto.style.backgroundColor = "#98FF98"
     boutonAuto.style.cursor = "pointer"
+    boutonAuto.addEventListener('mouseover', function () {
+      boutonAuto.style.transform = 'scale(1.2)';
+    })
+    boutonAuto.addEventListener('mouseout', function () {
+      boutonAuto.style.transform = 'scale(1)';
+    });
 
   }
   else {
     boutonAuto.style.backgroundColor = "#888888"
     boutonAuto.style.cursor = "not-allowed"
+    boutonAuto.addEventListener('mouseover', function () {
+      boutonAuto.style.transform = 'scale(1)';
+    })
+    boutonAuto.addEventListener('mouseout', function () {
+      boutonAuto.style.transform = 'scale(1)';
+    });
   }
 }, 10)
 
@@ -90,11 +102,23 @@ setInterval(() => {
   if ((+score.innerHTML) >= (+prixMulti.innerHTML)) {
     boutonMulti.style.backgroundColor = "#98FF98"
     boutonMulti.style.cursor = "pointer"
+    boutonMulti.addEventListener('mouseover', function () {
+      boutonMulti.style.transform = 'scale(1.2)';
+    })
+    boutonMulti.addEventListener('mouseout', function () {
+      boutonMulti.style.transform = 'scale(1)';
+    });
 
   }
   else {
     boutonMulti.style.backgroundColor = "#888888"
     boutonMulti.style.cursor = "not-allowed"
+    boutonMulti.addEventListener('mouseover', function () {
+      boutonMulti.style.transform = 'scale(1)';
+    })
+    boutonMulti.addEventListener('mouseout', function () {
+      boutonMulti.style.transform = 'scale(1)';
+    });
   }
 }, 10)
 
@@ -159,7 +183,7 @@ function attachBonusClickListener() {
 timerBonus()
 
 
-setInterval(() =>   {
+setInterval(() => {
   let scoreSauvegarde = parseInt(score.innerHTML, 10);
   localStorage.setItem("score", scoreSauvegarde)
 
