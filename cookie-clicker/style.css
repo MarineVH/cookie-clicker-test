@@ -141,6 +141,8 @@
     border-color:  #98FF98;
   }
   footer {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
     grid-column: 1/5;
     grid-row: 5;
     text-align: center;
@@ -150,11 +152,16 @@
     font-size: 0.8rem;
     font-weight: bold;
     font-family: montserra;
+    grid-row: 1;
   }
   footer img{
     width: 30px;
     height: auto;
     margin-left: 10px;
+    
+  }
+  #code {
+    grid-row: 2;
   }
   footer img:hover{
     transform: scale(1.2);
