@@ -43,7 +43,7 @@
   #setup {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-column: 1/5;
     grid-row: 4;
     max-width: 250px;
@@ -73,9 +73,14 @@
   #setup button:hover{
     /*transform: scale(1.2);*/
   }
-  #btn-multi{
+  #btn-stop {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 4;
+    margin-top: 10px;
+  }
+  #volume{
+    grid-column: 2;
+    grid-row: 4;
   }
   #btn-multi{
     grid-column: 1;
@@ -105,16 +110,6 @@
   #btn-auto {
     grid-column: 1;
     grid-row: 2;
-  }
-
-  #btn-bonus {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  #btn-auto {
-    grid-column: 1;
-    grid-row: 3;
   }
 
   #img-resp {
@@ -252,10 +247,12 @@
     grid-row: 4;
     background-color: #98FF98 !important;
   }
+
   #volume{
     grid-column: 2;
     grid-row: 4;
   }
+ 
 
 input[type=range]{
     -webkit-appearance: none;
