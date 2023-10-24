@@ -143,7 +143,7 @@
   }
   footer {
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     grid-column: 1/5;
     grid-row: 5;
     text-align: center;
@@ -153,7 +153,7 @@
     font-size: 0.8rem;
     font-weight: bold;
     font-family: montserra;
-    grid-row: 1;
+    grid-row: 2;
   }
   footer img{
     width: 30px;
@@ -162,12 +162,22 @@
     
   }
   #code {
-    grid-row: 2;
+    grid-row: 3;
   }
   footer img:hover{
     transform: scale(1.2);
     transition: 0.5s
-}
+  }
+  #name {
+    grid-row: 1;
+  }
+  #name a{
+    text-decoration: none;
+    color: #98FF98;
+  }
+  #name a:hover{
+    color:rgb(32, 223, 32);
+  }
     
 }
 
@@ -306,7 +316,14 @@
   footer img:hover{
     transform: scale(1.2);
     transition: 0.5s
-}
+  }
+  #name a{
+    text-decoration: none;
+    color: #98FF98;
+  }
+  #name a:hover{
+    color:rgb(32, 223, 32);
+  }
 }
 
 
