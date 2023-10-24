@@ -90,18 +90,22 @@ Votre clicker de cookie doit être joli, donnez-lui une belle apparence avec CSS
 
 ## _Livraison :_
 
-1. Publiez votre code source sur le référentiel GitHub.
+1. Publiez votre code source sur le référentiel GitHub. ✅
 2. Pimpez le fichier Lisez-moi :
     - Quoi, pourquoi, quand, comment, qui.
     - En attendant des choses à faire
-    - Il doit contenir un lien vers la version "live". La version « live » doit contenir un lien vers le code source sur GitHub.
+    - Il doit contenir un lien vers la version "live". La version « live » doit contenir un lien vers le code source sur GitHub.✅
 3. Publiez le lien vers la version "live" sur Discord.
 
 ## _Thème :_
 
 Nous avons decidé de faire un **Donut Clicker** 
 
-![Donut](img/donut-removebg-preview.png)
+
+Le donut à été généré avec [Dall-E](https://labs.openai.com/ "Dall-E")
+![Donut](img/Donut_DALL_E_.png)
+
+Le fond en dégrader à été généré avec [Colinkeany](http://www.colinkeany.com/blend/ "Colinkeany")
 
 
 ## _Sources :_
