@@ -30,6 +30,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, auto);
+   
   }
 
   #result {
@@ -176,7 +177,7 @@
   body {
     background: -webkit-radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
     background: radial-gradient(rgb(248, 189, 236), rgb(161, 0, 161));
-    
+    cursor: url('img/cursor.png'), auto;
   }
   header{
     grid-column: 1/5;
