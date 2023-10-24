@@ -6,6 +6,10 @@ Ce projet de **Coockie Clicker** est réalisé dans le cadre de la formation de 
 
 ![BeCode](https://res.cloudinary.com/practicaldev/image/fetch/s--lirxSGIl--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1675/3e6f1228-27eb-47af-a6ce-b4cd0854f8ac.png)
 
+## _Mais qu'est-ce qu'un **cookie-clicker**?_
+
+Un cookie clicker est un jeu vidéo en ligne minimaliste et addictif dans lequel les joueurs doivent cliquer sur un cookie à l'écran pour gagner des cookies virtuels. Le jeu évolue vers des mécaniques plus complexes au fil du temps, permettant aux joueurs d'automatiser la production de cookies et d'atteindre des objectifs de plus en plus élevés. Ce genre de jeu fait partie des "idle games" qui encouragent les joueurs à laisser le jeu tourner en arrière-plan, générant des ressources même lorsqu'ils ne sont pas actifs. Il est connu pour sa simplicité et son aspect addictif, bien que certains joueurs aient signalé qu'il pouvait devenir chronophage.
+
 ## _Equipe :_
 
 - ***[Marine](https://github.com/MarineVH "GitHub")*** : Project-Manager
