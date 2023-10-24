@@ -14,8 +14,6 @@ let boutonBonus = document.getElementById("btn-bonus")
 
 let flagBonus = false
 
-
-
 let valeurAuto = document.getElementById("auto")
 
 let prixAuto = document.getElementById("clic-auto")
@@ -35,7 +33,7 @@ score.innerHTML = localStorage.getItem("score") || 0
 
 valeurMultiplicateur.innerHTML = localStorage.getItem("multiplicateur") || 1
 
-prixMulti.innerHTML = localStorage.getItem("prixMulti") || 20
+prixMulti.innerHTML = localStorage.getItem("prixMulti") || 30
 
 valeurAuto.innerHTML = localStorage.getItem("valeurAuto") || 0
 
@@ -48,14 +46,10 @@ donut.addEventListener("click", function () {
 boutonMulti.addEventListener("click", () => {
   if ((+score.innerHTML) >= (+prixMulti.innerHTML)) {
     score.innerHTML = (+score.innerHTML) - (+prixMulti.innerHTML)
-    //valeurClick = valeurClick * 2
     valeurMultiplicateur.innerHTML = (+valeurMultiplicateur.innerHTML) * 2
     prixMulti.innerHTML = (+prixMulti.innerHTML) * 2
     console.log("yes")
 
-  }
-  else {
-    alert("Vous n'avez pas assez de points")
   }
 })
 
@@ -65,14 +59,16 @@ boutonAuto.addEventListener("click", () => {
     valeurAuto.innerHTML = (+valeurAuto.innerHTML) + 1
     score.innerHTML = (+score.innerHTML) - 30
   }
-  else {
-    alert("Vous n'avez pas assez de points")
-  }
 })
 
 setInterval(() => {
   score.innerHTML = (+score.innerHTML) + (+valeurAuto.innerHTML)
 }, 1000)
+
+
+
+/* Si le score est supérieur au prix d'achat du click automatique, 
+celui-ci change de couleur et de pointeur*/
 
 setInterval(() => {
   if ((+score.innerHTML) >= (+prixAuto.innerHTML)) {
@@ -85,6 +81,10 @@ setInterval(() => {
     boutonAuto.style.cursor = "not-allowed"
   }
 }, 10)
+
+
+/* Si le score est supérieur au prix d'achat du multiplicateur, 
+celui-ci change de couleur et de pointeur*/
 
 setInterval(() => {
   if ((+score.innerHTML) >= (+prixMulti.innerHTML)) {
@@ -128,9 +128,10 @@ function timerBonus() {
 
 function attachBonusClickListener() {
   if (flagBonus == true) {
+    console.log("TRUE")
     boutonBonus.addEventListener("click", () => {
       while (flagBonus == true) {
-        valeurClick = valeurClick * 7;
+        valeurMultiplicateur.innerHTML = (+valeurMultiplicateur.innerHTML) * 7;
 
 
         console.log("BONUS TIME");
@@ -145,7 +146,7 @@ function attachBonusClickListener() {
 
             clearInterval(timerInterval);
             timerElement.textContent = "";
-            valeurClick = valeurClick / 7;
+            valeurMultiplicateur.innerHTML = (+valeurMultiplicateur.innerHTML) / 7;
             timerBonus()
           }
         }, 1000)
