@@ -163,7 +163,7 @@ function attachBonusClickListener() {
 timerBonus()
 
 
-setInterval(() =>   {
+setInterval(() => {
   let scoreSauvegarde = parseInt(score.innerHTML, 10);
   localStorage.setItem("score", scoreSauvegarde)
 
@@ -175,7 +175,7 @@ setInterval(() =>   {
 
   let valeurAutoSauvegarde = parseInt(valeurAuto.innerHTML, 10)
   localStorage.setItem("valeurAuto", valeurAutoSauvegarde)
-  
+
 }, 1000)
 
 
@@ -192,19 +192,39 @@ var btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+let audioElement = document.getElementById("music")
+
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+btn.onclick = function () {
   modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
+  if (audioElement.paused) {
+    // If it's paused, play the audio
+    audioElement.play();
+  }
 }
 
+
+
+
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+  if (audioElement.paused) {
+    // If it's paused, play the audio
+    audioElement.play();
+  }
 }
+
+let volumeControl =document.getElementById("volumeControl");
+
+volumeControl.addEventListener("input", function() {
+  // Set the volume of the audio based on the range input value
+  audioElement.volume = parseFloat(volumeControl.value);
+});
