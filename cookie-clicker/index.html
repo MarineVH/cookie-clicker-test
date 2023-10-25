@@ -16,6 +16,22 @@
     <title>Donut-Clicker</title>
   </head>
   <body>
+    <button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="manuel-titre">🍩 Bienvenue sur Donut-Clicker 🍩</p>
+        <p>Gagnez un maximum de points en cliquant sur le <b>DONUT</b></p>
+        <p>Utiliser le Multiplicateur afin d'augmenter plus rapidement votre score</p>
+        <p>Le clic-auto permet de laisser tourner le jeux en arrière-plan et emmagasiner des points</p>
+        <p>Les bonus augmentent significativement votre score</p>
+  </div>
+
+</div>
         
     <div class="container">
     <header>
@@ -44,17 +60,6 @@
     <input id="volume" type="range" min="0" max="1" step="0.1" oninput="setVolume(this.value)" value="0.6" aria-label="Contrôle du volume">
   </div>
     <footer>
-      <div id="manuel">
-        <p id="manuel-titre">🍩 Bienvenue sur Donut-Clicker 🍩</p>
-        <p>Gagnez un maximum de point en cliquant sur le <b>donut</b></p>
-        <p>Utiliser le Multiplicateur afin d'augmenter plus rapidement votre score</p>
-        <p>Le clic-auto permet de laisser tourner le jeux en arrière-plan et enmagasiner des points</p>
-        <p>Les bonus augmentent significativement votre score</p>
-        <button id="btn-manuel">OK</button>
-
-      </div>
-
-
       <hr>
       <p id="name">By <a href="https://github.com/MarineVH" title="GitHub">Marine</a>, <a href="https://github.com/AudriusGrebliunas" title="GitHub">Audrius</a>, <a href="https://github.com/cebe0210" title="GitHub">Cédric</a>.</p>
       <p>Visualisez notre code sur GitHub :</p>
