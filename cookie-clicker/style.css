@@ -425,7 +425,7 @@
 }
 
 .modal {
-  display: none;
+  display: block;
   /* Hidden by default */
   position: absolute;
   /* Stay in place */
@@ -473,3 +473,5 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+
