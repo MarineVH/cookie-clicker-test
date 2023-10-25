@@ -1,72 +1,82 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/webP" href="img/Donut-icon.webp">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="game donut-clicker">
-    <!--Désactivation clic droit-->
-    <script type="text/javascript">
-      document.oncontextmenu = function() {
-          return false;
-      }
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/webP" href="img/Donut-icon.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="game donut-clicker">
+  <!--Désactivation clic droit-->
+  <script type="text/javascript">
+    document.oncontextmenu = function () {
+      return false;
+    }
   </script>
-  
-    <title>Donut-Clicker</title>
-  </head>
-  <body>
-    <button id="myBtn">Open Modal</button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+  <title>Donut-Clicker</title>
+</head>
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p id="manuel-titre">🍩 Bienvenue sur Donut-Clicker 🍩</p>
-        <p>Gagnez un maximum de points en cliquant sur le <b>DONUT</b></p>
-        <p>Utiliser le Multiplicateur afin d'augmenter plus rapidement votre score</p>
-        <p>Le clic-auto permet de laisser tourner le jeux en arrière-plan et emmagasiner des points</p>
-        <p>Les bonus augmentent significativement votre score</p>
+<body>
+  <button id="myBtn">Instructions</button>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="manuel-titre">🍩 Bienvenue sur Donut-Clicker 🍩</p>
+      <p>Gagnez un maximum de points en cliquant sur le <b>DONUT</b></p>
+      <p>Utiliser le Multiplicateur afin d'augmenter plus rapidement votre score</p>
+      <p>Le clic-auto permet de laisser tourner le jeux en arrière-plan et emmagasiner des points</p>
+      <p>Les bonus augmentent significativement votre score</p>
+    </div>
+
   </div>
 
-</div>
-        
-    <div class="container">
+  <div class="container">
     <header>
       <h1> Donut Clicker</h1>
     </header>
 
-   <p id="result">Votre score est de : <span id="score">0</span></p>
+    <p id="result">Votre score est de : <span id="score">0</span></p>
 
-     <div id="img-resp">
-    <img id="donut" src="img/Donut_DALL_E_.webp" alt="Donut">
+    <div id="img-resp">
+      <img id="donut" src="img/Donut_DALL_E_.webp" alt="Donut">
     </div>
 
     <div id="setup">
-      <button type="button" id="btn-multi" aria-label="Multiplicateur">Multiplicateur : <span id="prix-multi">0</span></button>
+      <button type="button" id="btn-multi" aria-label="Multiplicateur">Multiplicateur : <span
+          id="prix-multi">0</span></button>
       <p id="multi" class="multi">0</p>
-      <button type="button" id="btn-bonus" aria-label="Bonus"><span id="bonus"> Bonus : </span><span id="timer">0</span></button>
+      <button type="button" id="btn-bonus" aria-label="Bonus"><span id="bonus"> Bonus : </span><span
+          id="timer">0</span></button>
       <button type="button" id="btn-auto" aria-label="auto-clic">Clic-auto : <span id="clic-auto">0</span></button>
       <p id="auto" class="auto">0</p>
-    
 
-    <!--Musique-->
-    <audio id="music" autoplay loop  aria-label="Lecteur audio">
-      <source src="gnork-party-improved-171719.mp3" type="audio/mpeg">
-    </audio>
-    <button id="btn-stop" onclick="stopMusic()" aria-label="Arrêter la musique">Arrêter la musique</button>
-    <input id="volume" type="range" min="0" max="1" step="0.1" oninput="setVolume(this.value)" value="0.6" aria-label="Contrôle du volume">
-  </div>
+
+      <!--Musique-->
+      <audio id="music" autoplay loop aria-label="Lecteur audio">
+        <source src="gnork-party-improved-171719.mp3" type="audio/mpeg">
+      </audio>
+      <button id="btn-stop" onclick="stopMusic()" aria-label="Arrêter la musique">Arrêter la musique</button>
+      <input id="volume" type="range" min="0" max="1" step="0.1" oninput="setVolume(this.value)" value="0.6"
+        aria-label="Contrôle du volume">
+    </div>
     <footer>
       <hr>
-      <p id="name">By <a href="https://github.com/MarineVH" title="GitHub">Marine</a>, <a href="https://github.com/AudriusGrebliunas" title="GitHub">Audrius</a>, <a href="https://github.com/cebe0210" title="GitHub">Cédric</a>.</p>
+      <p id="name">By <a href="https://github.com/MarineVH" title="GitHub">Marine</a>, <a
+          href="https://github.com/AudriusGrebliunas" title="GitHub">Audrius</a>, <a href="https://github.com/cebe0210"
+          title="GitHub">Cédric</a>.</p>
       <p>Visualisez notre code sur GitHub :</p>
+
       <div id="code"><a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/index.html" title="HTML"><img src="img/HTML.svg" alt="html"></a> <a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/style.css" title="CSS"><img src="img/CSS.svg" alt="CSS"><a href="https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/main.js" title="JavaScript"><img src="img/JAVASCRIPT.svg" alt="JavaScript"></a></div> 
+
     </footer>
-  
+
   </div>
-    <script src="main.js"></script>
-  </body>
+  <script src="main.js"></script>
+</body>
+
 </html>
