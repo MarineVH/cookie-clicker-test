@@ -37,6 +37,8 @@ prixMulti.innerHTML = localStorage.getItem("prixMulti") || 30
 
 valeurAuto.innerHTML = localStorage.getItem("valeurAuto") || 0
 
+//document.getElementById("donut").src = "img/DonutMordu.png"
+
 
 donut.addEventListener("click", function () {
   console.log("donut")
@@ -104,7 +106,7 @@ function timerBonus() {
   boutonBonus.style.backgroundColor = "#888888"
   boutonBonus.style.cursor = "not-allowed"
   let timerElement = document.getElementById("timer");
-  let remainingTime = 60;
+  let remainingTime = 10;
   timerElement.textContent = remainingTime + " secondes jusqu'à activation";
   timerInterval = setInterval(() => {
     remainingTime -= 1;
@@ -128,6 +130,7 @@ function timerBonus() {
 
 function attachBonusClickListener() {
   if (flagBonus == true) {
+
     console.log("TRUE")
     boutonBonus.addEventListener("click", () => {
       while (flagBonus == true) {
@@ -136,14 +139,15 @@ function attachBonusClickListener() {
 
         console.log("BONUS TIME");
         const timerElement = document.getElementById("timer");
-        let remainingTime = 30;
+        let remainingTime = 5;
         timerElement.textContent = remainingTime + " secondes";
         timerInterval = setInterval(() => {
+          document.getElementById("donut").src = "img/DonutMordu.png"
           remainingTime -= 1;
           timerElement.textContent = remainingTime + " secondes";
 
           if (remainingTime <= 0) {
-
+            document.getElementById("donut").src = "img/Donut_DALL_E_.webp"
             clearInterval(timerInterval);
             timerElement.textContent = "";
             valeurMultiplicateur.innerHTML = (+valeurMultiplicateur.innerHTML) / 7;

@@ -364,4 +364,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   }
 }
 
-
+#code{
+  filter: invert(93%) sepia(3%) saturate(5667%) hue-rotate(58deg) brightness(94%) contrast(116%)
+}
