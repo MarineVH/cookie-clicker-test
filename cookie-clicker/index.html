@@ -16,6 +16,22 @@
     <title>Donut-Clicker</title>
   </head>
   <body>
+    <button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="manuel-titre">🍩 Bienvenue sur Donut-Clicker 🍩</p>
+        <p>Gagnez un maximum de points en cliquant sur le <b>DONUT</b></p>
+        <p>Utiliser le Multiplicateur afin d'augmenter plus rapidement votre score</p>
+        <p>Le clic-auto permet de laisser tourner le jeux en arrière-plan et emmagasiner des points</p>
+        <p>Les bonus augmentent significativement votre score</p>
+  </div>
+
+</div>
         
     <div class="container">
     <header>
@@ -30,10 +46,10 @@
 
     <div id="setup">
       <button type="button" id="btn-multi" aria-label="Multiplicateur">Multiplicateur : <span id="prix-multi">0</span></button>
-      <p id="multi">0</p>
+      <p id="multi" class="multi">0</p>
       <button type="button" id="btn-bonus" aria-label="Bonus"><span id="bonus"> Bonus : </span><span id="timer">0</span></button>
       <button type="button" id="btn-auto" aria-label="auto-clic">Clic-auto : <span id="clic-auto">0</span></button>
-      <p id="auto">0</p>
+      <p id="auto" class="auto">0</p>
     
 
     <!--Musique-->

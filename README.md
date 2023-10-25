@@ -20,11 +20,11 @@ Ce genre de jeu, ça appartient à la catégorie des "idle games", c'est-à-dire
 
 ## _Code :_
 
-- [![HTML](cookie-clicker/img/html.png)](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/index.html "GitHub")
+- [![HTML](cookie-clicker/img/html.webp)](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/index.html "GitHub")
 
-- [![CSS](cookie-clicker/img/css.png)](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/style.css "GitHub")
+- [![CSS](cookie-clicker/img/css.webp)](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/style.css "GitHub")
 
-- [![JavaScript](cookie-clicker/img/js.png)](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/main.js "GitHub")
+- [![JavaScript](cookie-clicker/img/js.webp)](https://github.com/MarineVH/cookie-clicker/blob/main/cookie-clicker/main.js "GitHub")
 
 
 ## _Consignes :_
@@ -111,7 +111,8 @@ Nous avons decidé de faire un **Donut Clicker** 🍩🍩🍩
 
 **Version Desktop :**
 
-![desktop](cookie-clicker/img/desktop.png)
+![desktop](cookie-clicker/img/desktop.png
+)
 
 **Version Mobile :**
 
@@ -119,7 +120,7 @@ Nous avons decidé de faire un **Donut Clicker** 🍩🍩🍩
 
 Le donut à été généré avec [Dall-E](https://labs.openai.com/ "Dall-E") **Prompt** : *un donut rose avec des paillettes en pixel-art*
 
-![Donut](cookie-clicker/img/Donut_DALL_E_.png)
+![Donut](cookie-clicker/img/Donut_DALL_E_.webp)
 
 - Musique : Music by <a href="https://pixabay.com/fr/users/piemert-24353758/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=171719">Robert de Waard</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=171719">Pixabay</a>
 
