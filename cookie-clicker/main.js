@@ -2,6 +2,8 @@ let score = document.getElementById("score")
 
 let donut = document.getElementById("donut")
 
+let reset = document.getElementById("reset")
+
 
 let prixMulti = document.getElementById("prix-multi")
 
@@ -43,6 +45,11 @@ valeurAuto.innerHTML = localStorage.getItem("valeurAuto") || 0
 donut.addEventListener("click", function () {
   console.log("donut")
   score.innerHTML = (+score.innerHTML) + 1 * (+valeurMultiplicateur.innerHTML)
+})
+
+reset.addEventListener("click", function () {
+  console.log("reset");
+  score.innerHTML = 0;
 })
 
 boutonMulti.addEventListener("click", () => {
