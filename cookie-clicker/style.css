@@ -148,7 +148,7 @@ html, body{
     height: auto; */
     width: 259px;
     height: 236px;
-    animation: rotation 10s linear infinite;
+    animation: rotation 200s linear infinite;
   }
 
   @keyframes rotation {
