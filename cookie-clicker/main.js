@@ -50,6 +50,7 @@ donut.addEventListener("click", function () {
 reset.addEventListener("click", function () {
   console.log("reset");
   score.innerHTML = 0;
+  prixMulti.innerHTML = 20;
   valeurMultiplicateur.innerHTML = 1;
   valeurAuto.innerHTML = 0;
 })
