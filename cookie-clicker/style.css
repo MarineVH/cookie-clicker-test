@@ -144,10 +144,10 @@ html, body{
   }
 
   #donut {
-    /* width: 100%;
-    height: auto; */
-    width: 259px;
-    height: 236px;
+    width: 100%;
+    height: auto;
+    /* width: 259px;
+    height: 236px; */
     animation: rotation 10s linear infinite;
   }
 
