@@ -502,3 +502,15 @@
   width: 150px;
   height: 40px;
 }
+
+#reset {
+  background-color: #98FF98;
+  font-family: lilita;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  float: right;
+}
