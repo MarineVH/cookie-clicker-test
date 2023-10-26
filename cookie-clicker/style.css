@@ -1,16 +1,26 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: nosifer;
   src: url(font/Nosifer-Regular.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: lilita;
   src: url(font/LilitaOne-Regular.ttf);
+  font-display: swap;
+
 }
 
 @font-face {
   font-family: montserra;
   src: url(font/Montserrat-VariableFont_wght.ttf);
+  font-display: swap;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -78,9 +88,7 @@
     color: #98FF98;
   }
 
-  #setup button:hover {
-    /*transform: scale(1.2);*/
-  }
+
 
   #btn-stop {
     grid-column: 1;
@@ -271,9 +279,6 @@
     color: #98FF98;
   }
 
-  #setup button:hover {
-    /*transform: scale(1.2);*/
-  }
 
   #btn-multi {
     grid-column: 1;
@@ -428,7 +433,7 @@
 .modal {
   display: block;
   /* Hidden by default */
-  position: absolute;
+  position: fixed;
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
@@ -459,7 +464,7 @@
   border-radius: 20px;
   font-family: lilita;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;

@@ -228,3 +228,4 @@ volumeControl.addEventListener("input", function() {
   // Set the volume of the audio based on the range input value
   audioElement.volume = parseFloat(volumeControl.value);
 });
+
