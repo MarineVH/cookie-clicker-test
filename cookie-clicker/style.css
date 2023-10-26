@@ -144,8 +144,10 @@ html, body{
   }
 
   #donut {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    width: 259px;
+    height: 236px;
     animation: rotation 10s linear infinite;
   }
 
@@ -464,7 +466,7 @@ html, body{
   border-radius: 20px;
   font-family: lilita;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 2px;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
