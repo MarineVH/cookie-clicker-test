@@ -193,8 +193,10 @@ setInterval(() => {
 
 
 
-
+var cookieModal = document.getElementById("cookieModal");
 var modal = document.getElementById("myModal");
+
+var acceptButton = document.getElementById("acceptButton");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -203,6 +205,18 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 let audioElement = document.getElementById("music")
+
+
+cookieModal.style.display = "block";
+
+acceptButton.addEventListener("click", function () {
+  cookieModal.style.display = "none";
+  modal.style.display = "block";
+})
+
+span.addEventListener("click", function () {
+  cookieModal.style.display = "none";
+})
 
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
