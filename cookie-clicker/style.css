@@ -145,12 +145,12 @@ html, body{
   }
 
   #donut {
-    /* width: 100%;
-    height: auto; */
+    width: 100%;
+    height: auto;
     width: 259px;
     height: 236px;
-    animation: rotation 200s linear infinite;
-  }
+    /* animation: rotation 200s linear infinite; */
+  } 
 
   @keyframes rotation {
     0% {
@@ -302,10 +302,10 @@ html, body{
   }
 
 
-  input[type=range] {
+  /* input[type=range] {
     -webkit-appearance: none;
     background-color: rgba(0, 0, 0, 0);
-  }
+  } */
 
   input[type=range]::-webkit-slider-runnable-track {
     width: 300px;
@@ -373,10 +373,10 @@ html, body{
   #donut {
     width: 500px;
     height: 456px;
-    animation: rotation 10s linear infinite;
+    /* animation: rotation 10s linear infinite; */
   }
 
-  @keyframes rotation {
+   @keyframes rotation {
     0% {
       transform: rotate(0deg);
     }
@@ -400,7 +400,7 @@ html, body{
   footer p {
     font-size: 18px;
     font-weight: bold;
-    font-family: montserra;
+    font-family: montserra;   
   }
 
   footer img {
@@ -470,14 +470,14 @@ html, body{
   font-weight: bold;
   font-size: 1.2rem;
   letter-spacing: 2px;
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
+  /* -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s; */
   animation-name: animatetop;
   animation-duration: 0.4s
 }
 
 /* Add Animation */
-@-webkit-keyframes animatetop {
+/* @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0} 
   to {top:0; opacity:1}
 }
@@ -485,7 +485,7 @@ html, body{
 @keyframes animatetop {
   from {top:-300px; opacity:0}
   to {top:0; opacity:1}
-}
+} */
 
 .close {
   color: #aaaaaa;

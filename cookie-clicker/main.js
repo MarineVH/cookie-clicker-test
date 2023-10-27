@@ -39,12 +39,12 @@ prixMulti.innerHTML = localStorage.getItem("prixMulti") || 30
 
 valeurAuto.innerHTML = localStorage.getItem("valeurAuto") || 0
 
-//document.getElementById("donut").src = "img/DonutMordu.png"
-
 
 donut.addEventListener("click", function () {
   console.log("donut")
   score.innerHTML = (+score.innerHTML) + 1 * (+valeurMultiplicateur.innerHTML)
+  donut.style.animation = "rotation 20s linear infinite"
+
 })
 
 reset.addEventListener("click", function () {
