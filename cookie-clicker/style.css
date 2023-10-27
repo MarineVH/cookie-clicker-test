@@ -144,12 +144,12 @@ html, body{
   }
 
   #donut {
-    /* width: 100%;
-    height: auto; */
+    width: 100%;
+    height: auto;
     width: 259px;
     height: 236px;
     animation: rotation 200s linear infinite;
-  }
+  } 
 
   @keyframes rotation {
     0% {
@@ -300,10 +300,10 @@ html, body{
   }
 
 
-  input[type=range] {
+  /* input[type=range] {
     -webkit-appearance: none;
     background-color: rgba(0, 0, 0, 0);
-  }
+  } */
 
   input[type=range]::-webkit-slider-runnable-track {
     width: 300px;
@@ -371,7 +371,7 @@ html, body{
   #donut {
     width: 500px;
     height: 456px;
-    animation: rotation 10s linear infinite;
+    /* animation: rotation 10s linear infinite; */
   }
 
   @keyframes rotation {
