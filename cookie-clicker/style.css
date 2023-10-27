@@ -35,12 +35,12 @@ html, body{
     text-align: center;
   }
 
-  /* h1 {
+  h1 {
     font-family: nosifer;
     text-align: center;
     font-size: 2.5rem;
     color: #98FF98;
-  } */
+  }
 
   .container {
     display: grid;
@@ -374,7 +374,7 @@ html, body{
     /* animation: rotation 10s linear infinite; */
   }
 
-  /* @keyframes rotation {
+   @keyframes rotation {
     0% {
       transform: rotate(0deg);
     }
@@ -382,7 +382,7 @@ html, body{
     100% {
       transform: rotate(360deg);
     }
-  } */
+  }
 
   hr {
     border-color: #98FF98;
