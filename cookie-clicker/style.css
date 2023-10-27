@@ -522,17 +522,19 @@ html, body{
   float: right;
 }
 
-#acceptButton {
+#acceptButton, #cancelButton {
   background-color: rgb(248, 189, 236);
   font-family: lilita;
   font-size: 1rem;
   letter-spacing: 1px;
   border: none;
-  padding: 10px 20px;
+  width: 90px;
+  height: 40px;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
 }
 
-#acceptButton:hover {
+#acceptButton:hover, #cancelButton:hover {
   background-color: rgb(248, 189, 236);
 }

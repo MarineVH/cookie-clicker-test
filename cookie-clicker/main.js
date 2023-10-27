@@ -197,6 +197,7 @@ var cookieModal = document.getElementById("cookieModal");
 var modal = document.getElementById("myModal");
 
 var acceptButton = document.getElementById("acceptButton");
+var cancelButton = document.getElementById("cancelButton");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -214,10 +215,15 @@ acceptButton.addEventListener("click", function () {
   modal.style.display = "block";
 })
 
-span.addEventListener("click", function () {
+cancelButton.addEventListener("click", function () {
   cookieModal.style.display = "none";
+  modal.style.display = "block";
 })
 
+span.onclick = function () {
+  cookieModal.style.display = "none";
+  modal.style.display = "block";
+}
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
   modal.style.display = "block";
