@@ -80,6 +80,7 @@ html, body{
     font-family: lilita;
     font-size: 1.05rem;
     letter-spacing: 2px;
+    color: #000000;
   }
 
   #score {
@@ -273,6 +274,7 @@ html, body{
     font-family: lilita;
     font-size: 1.05rem;
     letter-spacing: 2px;
+    color:#000000;
   }
 
   #score {
@@ -508,6 +510,7 @@ html, body{
   border-radius: 20px;
   width: 150px;
   height: 40px;
+  color: #000000;
 }
 
 #reset {
@@ -520,6 +523,7 @@ html, body{
   width: 150px;
   height: 40px;
   float: right;
+  color: #000000;
 }
 
 #acceptButton, #cancelButton {
